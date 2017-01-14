@@ -4,6 +4,13 @@ vscode git test
 # vscode添加git
 <a href="http://www.cnblogs.com/xuanhun/p/6019038.html?utm_source=tuicool&utm_medium=referral">http://www.cnblogs.com/xuanhun/p/6019038.html?utm_source=tuicool&utm_medium=referral</a>
 
+<p>先本地创建git，然后在远程创建项目，之后运行如下命令</p>
+<pre>
+git remote add origin 远程地址 //添加远程地址
+git pull origin master //把远程文件同步到本地
+</pre>
+<p>然后配置用户名和邮箱，然后就可以发布了。</p>
+
 # git 用远程覆盖本地
 <p>本地有修改和提交，如何强制用远程的库更新更新。我尝试过用Git pull -f，总是提示 You have not concluded your merge. (MERGE_HEAD exists)。</p>
 
